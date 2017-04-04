@@ -35,7 +35,7 @@ def print_newline():
     Add new line
 
     """
-    print ""
+    print()
 
 
 def print_functions(baseclass):
