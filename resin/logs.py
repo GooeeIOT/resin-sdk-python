@@ -1,7 +1,6 @@
 from pubnub import Pubnub
 from functools import wraps
 
-from .base_request import BaseRequest
 from .models.config import Config
 from .models.device import Device
 

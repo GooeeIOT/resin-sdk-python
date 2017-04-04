@@ -1,5 +1,3 @@
-import re
-
 from ..base_request import BaseRequest
 from .device import Device
 from ..settings import Settings

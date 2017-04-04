@@ -1,4 +1,3 @@
-import sys
 import binascii
 import os
 from datetime import datetime

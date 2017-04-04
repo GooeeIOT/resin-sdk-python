@@ -20,7 +20,7 @@ def main():
     files = []
     output = system('git', 'ls-files')
     for tmp_file in output.split():
-        if tmp_file.endswith('.py'):
+        if str(tmp_file).endswith('.py'):
             files.append(tmp_file)
 
     tempdir = tempfile.mkdtemp()
